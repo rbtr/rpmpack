@@ -13,7 +13,7 @@ type rpmSense uint32
 // SenseGreater specifies greater then the specified version
 // SenseEqual specifies equal to the specified version
 const (
-	SenseAny rpmSense = 1 << iota >> 1
+	SenseAny rpmSense = 1 << iota
 	SenseLess
 	SenseGreater
 	SenseEqual
